@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Serviço</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+    <h2>Formulário de Serviço</h2>
+
+    <form>
+        <h3>Informações Pessoais</h3>
+        
+        <label>Nome:</label><br>
+        <input type="text" name="nome"><br><br>
+
+        <label>Sobrenome:</label><br>
+        <input type="text" name="sobrenome"><br><br>
+
+        <label>Telefone:</label><br>
+        <input type="tel" name="telefone"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <h3>Detalhes do Serviço</h3>
+
+        <label>Mensagem:</label><br>
+        <textarea name="mensagem" rows="4" cols="40"></textarea><br><br>
+
+        <label>Língua:</label><br>
+        <select name="lingua">
+            <option value="">Selecione</option>
+            <option value="ingles">Inglês</option>
+            <option value="espanhol">Espanhol</option>
+            <option value="frances">Francês</option>
+            <option value="portugues">Português</option>
+        </select><br><br>
+
+        <label>Envio de Arquivo:</label><br>
+        <input type="file" name="arquivo"><br><br>
+
+        <label>Turno Preferido:</label><br>
+        <select name="turno">
+            <option value="">Selecione</option>
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+        </select><br><br>
+
+        <label>Data de Entrega:</label><br>
+        <input type="date" name="dataEntrega"><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+</html>
